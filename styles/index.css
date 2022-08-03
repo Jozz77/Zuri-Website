@@ -1,0 +1,203 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    border: 0;
+    outline: 0;
+}
+.containers{
+    
+}
+.first-section{
+    width: 100%;
+    height: 800px;
+    color: #514949;
+    background-image: url(../assets/img/hero-bg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.first-section img{
+    margin: 5rem auto 69px;
+}
+.first-section h2{
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 36px;
+}
+.first-section p{
+    width: 50%;
+    font-size: 16px;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    line-height: 24px;
+    color: #514949;
+    opacity: 0.9;
+}
+.first-section p a{
+    color: #E7332B;
+    text-decoration: none;
+}
+.first-buttons{
+    margin-top: 92px;
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+}
+#new{
+    border: 1px solid #E7332B;
+    font-size: 1rem;
+    text-decoration: none;
+    background-color: #E7332B;
+    color: #fff;
+    padding: 11px 2rem;
+}
+#new:hover{
+    color: #E7332B;
+    background-color: #fff;
+}
+#need{
+    border: 1px solid #E7332B;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #E7332B;
+    background-color: #fff;
+    padding: 11px 2rem;
+}
+#need:hover{
+    background-color: #E7332B;
+    color: #fff;
+}
+/* Styling the second section */
+.second-section{
+    text-align: center;
+}
+.second-section h6{
+    font-size: 14px;
+    line-height: 24px;
+    color: #E7332B;
+    margin-top: 141px;
+}
+.second-section p{
+    font-size: 24px;
+    line-height: 40px;
+    width: 30%;
+    margin: 0 auto;
+    color: #514949;
+    margin-top: 8px;
+    margin-bottom: 64px;
+}
+.third-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -4rem;
+}
+.third-section img{
+    height: auto;
+    width: 25%;
+}
+.fourth-section{
+    display: flex;
+    margin: 0 4rem;
+    justify-content: space-between;
+    margin-top: -20rem;
+}
+.section-card{
+    height: 511px;
+    width: 32%;
+    background-color: #FFFAFA;
+    padding: 4rem 2rem 0rem;
+}
+.section-card img{
+    margin-bottom: 48px;
+}
+.section-card p{
+    font-size: 16px;
+    height: 170px;
+    line-height: 24px;
+    color: #514949;
+    opacity: 0.9;
+    margin-bottom: 1rem;
+}
+.section-card a{
+    font-size: 16px;
+    line-height: 24px;
+    color: #E7332B;
+    opacity: 0.9;
+    text-decoration: none;
+}
+.fifth-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 4rem;
+    margin-top: 7rem;
+    margin-bottom: 56px;
+}
+.fifth-section #zuri-team{
+    margin-top: -4rem;
+    margin-right: 5rem;
+}
+.links{
+    display: flex;
+    margin-right: 5rem;
+    flex-direction: column;
+
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+}
+.links h6{
+    color: #514949;
+}
+.links a{
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    color: #E7332B;
+    font-weight: 400;
+}
+.contact{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    width: 20%;
+}
+.contact h6{
+    color: #514949;
+}
+.contact a{
+    text-decoration: none;
+    color: #E7332B;
+    font-weight: 400;
+}
+.contact p{
+    font-size: 14px;
+    line-height: 20px;
+    color: #514949;
+    opacity: 0.9;
+    font-weight: 400;
+}
+.follow{
+    display: flex;
+    justify-content: space-between;
+}
+.follow img{
+    height: auto;
+    width: 18px;
+    margin-left: 1rem;
+}
+hr{
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    border: 1px solid #514949;
+}
+footer p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    margin-top: 32px;
+    color: #514949;
+    padding-bottom: 97px;
+    text-align: center;
+}
